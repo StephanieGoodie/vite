@@ -84,14 +84,4 @@ const count = ref(0)
 .read-the-docs {
   color: #888;
 }
-.card {
-  max-width: 400px;
-  margin: 0 auto;
-  border: 1px solid #0C0B0B;
-  background-color: #0C0B0B;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
 </style>
