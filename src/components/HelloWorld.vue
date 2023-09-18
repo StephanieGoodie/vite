@@ -102,4 +102,50 @@ const count = ref(0)
 .read-the-docs {
   color: #888;
 }
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #0C0B0B;
+  background-color: #0C0B0B;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-content {
+  flex: 1;
+}
+
+/* Style for the Title label */
+h2 {
+  font-size: 24px;
+  margin: -10px 0;
+  /* Background color and border */
+  background-color: #F8471B;
+  /* Background color */
+  color: #fff;
+  /* Text color on the background */
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #fff;
+}
+
+a.details-button {
+  background-color: #EA5F0A;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
 </style>
