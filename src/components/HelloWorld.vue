@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
   </div>
   <div class="card">
-    <img alt="real estate logo" :src="require('./housepic.jpg')">
+    <img alt="real estate logo" src="./housepic.jpg">
     <div class="card-content"> 
       <h2>Two Pod Realty</h2> 
       <p id="description">Real Estate Company Focused on delivering the best properties in the State College Area</p> 
